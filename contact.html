@@ -64,7 +64,6 @@
                         <div class="divider"></div>
                     </div>
                     
-                    
                     <form action="https://formspree.io/f/mgvzljqp" method="POST" class="contact-form">
                         <div class="form-group">
                             <label for="name">Nom complet*</label>
@@ -118,7 +117,12 @@
                         </div>
                         <div class="info-content">
                             <h3>Adresse</h3>
-                            <p>Ngousso, Hôpital Gyneco<br>Yaoundé, Cameroun</p>
+                            <p>Ngousso, Hôpital Gynéco<br>Yaoundé, Cameroun</p>
+                            <a href="https://www.google.com/maps?q=WG5Q+2PH,+Yaoundé" 
+                               target="_blank" 
+                               class="btn btn-secondary">
+                                <i class="fas fa-location-dot"></i> Voir la localisation
+                            </a>
                         </div>
                     </div>
                     
@@ -131,8 +135,7 @@
                             <p>
                                 <a href="tel:+237697978007">+237 6 97 97 80 07</a><br>
                                 <a href="tel:+237673742069">+237 6 73 74 20 69</a><br>
-                                <a href="tel:+237672799212">+237 6 72 79 92 12</a><br>
-                                
+                                <a href="tel:+237672799212">+237 6 72 79 92 12</a>
                             </p>
                         </div>
                     </div>
@@ -165,7 +168,6 @@
                         <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://wa.me/237672799212" class="social-link"><i class="fab fa-whatsapp"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        
                     </div>
                 </div>
             </div>
@@ -180,10 +182,7 @@
                 <div class="divider"></div>
             </div>
             <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63516.44138677607!2d11.474!3d3.866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwNTInMDAuMCJOIDExwrAyOCcwMC4wIlc!5e0!3m2!1sfr!2scm!4v1617892811790!5m2!1sfr!2scm" 
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15383.14082489776!2d11.520307687158203!3d3.9075588000000074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bc609d42b4f6d%3A0xc63031243813563e!2sgyneco%20obstetrique!5e1!3m2!1sfr!2sus!4v1754320408207!5m2!1sfr!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
@@ -239,15 +238,14 @@
 
     <!-- Scripts -->
     <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const menuBtn = document.querySelector(".mobile-menu-btn");
-    const navbar = document.querySelector(".navbar");
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuBtn = document.querySelector(".mobile-menu-btn");
+            const navbar = document.querySelector(".navbar");
 
-    menuBtn.addEventListener("click", function () {
-        navbar.classList.toggle("active");
-    });
-});
-</script>
-
+            menuBtn.addEventListener("click", function () {
+                navbar.classList.toggle("active");
+            });
+        });
+    </script>
 </body>
 </html>
